@@ -8,15 +8,40 @@
 
 body{
     font-family: 'Roboto', sans-serif;    
-    background:linear-gradient(80.79deg, #fff 0%,#2B2D42 100%);
+    background: linear-gradient(80.79deg, #fff 0%,#2B2D42 100%);
 }
 
-
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
 
 h1{
     font-size: 50px;
 }
+span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 21px;
+    color: #2A2750;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+section{
+    margin: 20px 0;
+}
 
+p{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* NAVBAR */
 
 .nav-bar{
     width: 100%;
@@ -48,7 +73,7 @@ h1{
     margin-right: 30px;
 }
 
-/* carousel */
+/* CAROUSEL */
 
 .carousel{
     margin-top: 82px;
@@ -106,4 +131,57 @@ h1{
 
 .carousel .carousel-actions button#carousel-button-next{
     margin-right: 20px;
+}
+
+/* PORTAFOLIO */
+
+.portafolio{
+    width: 90%;
+    height: 500px;
+    background: white;
+    border: 0.1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 40px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    display: flex;
+    flex-direction: column;    
+}
+
+.portafolio .titulo{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    /* padding: 10px 0 10px 15px; */
+    margin: 30px 0 10px 40px;
+}
+.portafolio .contenedor-trabajos{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portafolio .contenedor-trabajos .trabajo{
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    margin: 10px 50px 30px 50px;
+}
+
+.portafolio .contenedor-trabajos .trabajo .trabajo-titulo{
+    width: 100%;
+    height: 20%;
+}
+
+.portafolio .contenedor-trabajos .trabajo .trabajo-imagen{
+    height: 60%;
+    margin: 20px 0 20px 0;
+}
+.portafolio .contenedor-trabajos .trabajo .trabajo-imagen img{
+    height: 100%;
+    width: 100%;
+}
+.portafolio .contenedor-trabajos .trabajo .trabajo-descripcion{
+    
 }
